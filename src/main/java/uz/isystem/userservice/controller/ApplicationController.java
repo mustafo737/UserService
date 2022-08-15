@@ -11,7 +11,7 @@ import uz.isystem.userservice.service.ApplicationService;
 public class ApplicationController {
     @Autowired
     private ApplicationService applicationService;
-
+//    Assalomu alaykum
     @PostMapping()
     public ResponseEntity<?> create(@RequestBody Application application){
         Application result = applicationService.createApplication(application);
