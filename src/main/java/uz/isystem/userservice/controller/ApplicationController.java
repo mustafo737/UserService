@@ -13,6 +13,9 @@ public class ApplicationController {
     private ApplicationService applicationService;
     // Salom Java Backend
     // Bu yengi code uni ozinga olib ol
+    // Bu yana yengi qator
+    // Bu yerda sizning reklamangiz bolishi mumkun edi
+    // Bu yerda funksiya mavjud
     @PostMapping()
     public ResponseEntity<?> create(@RequestBody Application application){
         Application result = applicationService.createApplication(application);
