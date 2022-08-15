@@ -12,6 +12,7 @@ public class ApplicationController {
     @Autowired
     private ApplicationService applicationService;
     // Salom Java Backend
+    // Bu yengi code uni ozinga olib ol
     @PostMapping()
     public ResponseEntity<?> create(@RequestBody Application application){
         Application result = applicationService.createApplication(application);
